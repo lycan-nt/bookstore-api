@@ -17,4 +17,19 @@
   - URL Base: https://book-store-aplication.herokuapp.com/
   - Resource Categories
     - Requisition Type: GET Route: /ID (Search a category by id)
+    - Requisition Type: GET Route: /categorias (Search all categorys)
+    - Requisition Type: POST Route: /categorias (Register a new category: receive a json with the name and description) <br>
+        { <br>
+            "nome": "" <br>
+            "descricao": "" <br>
+        } <br>
+        
+    - Requisition Type: PUT Route: /categorias/ID (change a category: receive a json with the name and description) <br>
+        { <br>
+            "nome": "" <br>
+            "descricao": "" <br>
+        } <br>
+        
+    - Requisition Type: DELETE Route: /categorias/ID (Delete a category by id)
+    
 
